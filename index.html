@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/cb.png" type="image/x-icon" />
+
+    <title>Cleginaldo Bandeira</title>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Cleginaldo<span>Bandeira</span>.</a>
+        <div class="light text"><p>light</p></div>
+        <div class="mude">
+          <input id="switch" type="checkbox" name="theme" />
+
+          <label for="switch"></label>
+        </div>
+        <div class="dark text"><p>Dark</p></div>
+
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Inicio</a></li>
+            <li><a class="title" href="#about">Sobre mim</a></li>
+            <li><a class="title" href="#services">Tecnologias</a></li>
+            <li><a class="title" href="#testimonials">Experiências</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu  -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img src="assets/clegy_dev.jpeg" alt="foto de cleginaldo" />
+          </div>
+          <div class="text">
+            <h1 class="title">Formação</h1>
+            <p>
+              Tecnológo em Analise e Desenvolvimento de Sistemas pela Estácio.
+              <br />
+              Conclusão: 2021
+            </p>
+            <br />
+            <p>
+              Tecnico em manutenção e desenvolvimento de sistemas pelo E-Jovem.
+              <br />
+              Conclusão: 2016
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="assets/setup.jpeg" alt="meu setup!" />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre mim.</h2>
+            <p>
+              Apaixonado por tecnologia, especialmente programação, com foco em
+              aprender cada dia mais e desejo em aplicar o conhecimento em
+              projetos relevantes.
+            </p>
+            <br />
+            <p>
+              Stack em foco: FRONTEND - HTML, CSS / SASS / LESS - JavaScript
+              ES6+ - TypeScript - Reactjs BACKEND - Node.js (express, adonis)
+              MOBILE - React Native INFRA - AWS / DigitalOcean - Git / GitHub,
+              GitLab - Docker
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Tecnologias em foco</h2>
+            <p class="subtitle"></p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-react"></i>
+              <h3 class="title">React</h3>
+              <p>
+                Escolhi estudar React por ser uma ferramenta complenta de
+                desenvolovimento Font-End que se agrega com muita praticidade as
+                demais tecnologias do front, como HTML, CSS e em uma linguagem
+                dominate e poderosa com JavaScript.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-react"></i>
+              <h3 class="title">React Native</h3>
+              <p>
+                React Native é sem duvidas uma paixão uma paixão para mim, essa
+                lib desenvolvida pelo facebook é completa, a possibilidade de
+                desenvolovimento de apps Android e IOS com um único encanta a
+                comunidade e a mim que sou amante da tecnologia, sem contar na
+                velocidade, desempenho, praticidade que sem precedentes ganha do
+                desenvolovimento nativo de cada arquitetura.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-node-dot-js"></i>
+              <h3 class="title">NodeJS</h3>
+              <p>
+                NodeJS se encaixa perfeitamente nessa Stack por tambem ser uma
+                ferramenta poderora e usar a mesma linguagem JavaScrip. Poder
+                criar APIs independentes de interfaces visuais com os conceitos
+                mais mordernos de Back-End podendo utilizar TypeScrip completa o
+                ferramental para o desenvolvedor Full Stak.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header class="title">
+            <h2 class="title">Experiências</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Criando uma API de envio de emais tive a noção de como
+                    funcioina o BackEnd na prática, como com uma única aplicação
+                    no BackEnd pode ser consumida por varias interfaces FontEnd
+                    e até aplicações moble.
+                  </p>
+                  <cite>
+                    <i class="icon-node-dot-js"></i>
+                    NodeJS
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Em React Native cosntrui um aplicativo básico de cálculo do
+                    IMC, indice de massa corporal, participei de um WorkShop
+                    para contrução de app de anotações de tarefas do dia-dia,
+                    aplicando AsycStorage para percistência de dados. Com esses
+                    pequenos projetos pude peceber o poder da tecnologia, a
+                    praticidade e a velocidade de produção no ambiente de
+                    desenvolvimento.
+                  </p>
+                  <cite>
+                    <i class="icon-react"></i>
+                    React Native
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Colocando a mão no código tive a oportunidade de participar
+                    de um WorkShop e contrir do zero em um curso uma aplicação
+                    utilizando React no frontEnd, NodeJS no BackEnd e React
+                    Native no Moble tudo em uma única aplicação. Criando uma
+                    interface cliente servidor com comunicação em tempo real
+                    utilizando Socket.IO.
+                  </p>
+                  <cite>
+                    <i class="icon-react"></i>
+                    React
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">contato</h2>
+            <p>Disponibilidade em tempo integral.</p>
+            <a
+              href="https://api.whatsapp.com/send?1=pt_BR&phone=+5588994833370&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>88 9 9483-3370</li>
+              <li><i class="icon-map-pin"></i>Rua Joaquim Souza Lima, 007</li>
+              <li><i class="icon-mail"></i>cleginaldo3000@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"
+            >Cleginaldo<span>Bandeira</span>.</a
+          >
+          <p>©2021 Cleginaldo Bandeiras.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social grid">
+          <a href="https://instagram.com" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="https://github.com/clegy" target="_blank"
+            ><i class="icon-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/cleginaldo/" target="_blank"
+            ><i class="icon-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="up">
+      <a href="#home"><i class="icon-arrow-up-circle" id="arrowUp"></i></a>
+    </div>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL_REVEAL_js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
