@@ -149,7 +149,7 @@ label {
   cursor: pointer;
   text-indent: -9999px;
   width: 52px;
-  height: 27px;
+  height: 25px;
   background: var(--color-text);
   float: right;
   border-radius: 100px;
@@ -201,8 +201,8 @@ label:active:after {
 
 /******************** LOGO *****************************/
 .logo {
-  font: 700 1.31rem var(--title-font);
-  color: var(--title-color);
+  font: 600 1rem var(--title-font);
+  color: var(--color-text);
 }
 
 .logo span {
@@ -589,6 +589,34 @@ div .icon-arrow-up-circle.show {
 /*        Resonsive @regras            */
 /*========== MEDIA QUERIES ===========*/
 /*  medium devices  > 800px  */
+@media (min-width: 550px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.25rem;
+  }
+  .container {
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section {
+    padding: 10rem 0;
+  }
+  .logo {
+    font: 700 1.2rem var(--title-font);
+    color: var(--color-text);
+  }
+
+  .logo span {
+    color: var(--base-color);
+  }
+
+  .logo-alt span {
+    color: var(--body-color);
+  }
+}
+/*========== MEDIA QUERIES ===========*/
+/*  medium devices  > 800px  */
 @media (min-width: 900px) {
   :root {
     --title-font-size: 2.25rem;
@@ -638,6 +666,18 @@ div .icon-arrow-up-circle.show {
     display: none;
   }
 
+  .logo {
+    font: 700 1.1rem var(--title-font);
+    color: var(--color-text);
+  }
+
+  .logo span {
+    color: var(--base-color);
+  }
+
+  .logo-alt span {
+    color: var(--body-color);
+  }
   /* main */
   main {
     margin-top: var(--header-height);
@@ -819,7 +859,7 @@ div .icon-arrow-up-circle.show {
 /* extra large devices > 1200px  */
 @media (min-width: 1200px) {
   .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
   }
