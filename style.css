@@ -210,7 +210,7 @@ label:active:after {
 
 /******************** LOGO *****************************/
 .logo {
-  font: 700 1.1rem var(--title-font);
+  font: 700 1rem var(--title-font);
   color: var(--color-text);
 }
 
