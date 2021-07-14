@@ -210,7 +210,7 @@ label:active:after {
 
 /******************** LOGO *****************************/
 .logo {
-  font: 600 0.8rem var(--title-font);
+  font: 700 1.1rem var(--title-font);
   color: var(--color-text);
 }
 
@@ -290,7 +290,7 @@ nav.show .menu {
 
 .toggle {
   color: var(--base-color);
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
