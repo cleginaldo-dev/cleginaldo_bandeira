@@ -99,8 +99,8 @@ body {
 
 /******************** LAYOUT *****************************/
 .container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
 }
 
 .grid {
@@ -148,8 +148,8 @@ body {
 label {
   cursor: pointer;
   text-indent: -9999px;
-  width: 30px;
-  height: 16px;
+  width: 28px;
+  height: 17px;
   background: var(--color-text);
   float: right;
   border-radius: 100px;
@@ -182,7 +182,7 @@ label::after {
 }
 
 .light p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .dark {
@@ -192,7 +192,7 @@ label::after {
 }
 
 .dark p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 input:checked + label {
@@ -205,19 +205,21 @@ input:checked + label::after {
 }
 
 label:active:after {
-  width: 10px;
+  width: 9px;
 }
 
 /******************** LOGO *****************************/
 .logo {
-  font: 700 0.9rem var(--title-font);
+  font: 700 1rem var(--title-font);
   color: var(--color-text);
 }
 
 .logo span {
   color: var(--base-color);
 }
-
+.logo-alt {
+  font-size: 1.5rem;
+}
 .logo-alt span {
   color: var(--body-color);
 }
@@ -290,7 +292,8 @@ nav.show .menu {
 
 .toggle {
   color: var(--base-color);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+
   cursor: pointer;
 }
 
